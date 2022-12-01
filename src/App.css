@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 0 auto;
+
 }
 
 .App-logo {
@@ -14,7 +16,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  margin: 0 auto;
+  background-color: #213969;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +38,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li {
+  list-style-type: none;
+}
+
+.post {
+  margin-bottom: 4em;
+}
+
+.post h4 {
+  font-size: 2rem;
 }
